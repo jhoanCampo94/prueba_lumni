@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+}
+
+ul li::marker, .text-purple{
+    color: #563DFF;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .country-flag {
+        position: absolute;
+        width: 70px;
+        right: 0;
+        left: 0;
+        bottom: -35px;
+        margin: 0 auto;
+    }
+  }
+
+  @media only screen and (min-width: 768px ){
+    .country-flag {
+        position: absolute;
+        width: 70px;
+        right: -35px;
+        left: unset;
+        bottom: 0;
+        margin: auto 0;
+        top: 0;
+    }
+  }
+
+
